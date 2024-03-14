@@ -1,7 +1,6 @@
 package br.com.ph.producer.controllers;
 
 import br.com.ph.producer.services.StringService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

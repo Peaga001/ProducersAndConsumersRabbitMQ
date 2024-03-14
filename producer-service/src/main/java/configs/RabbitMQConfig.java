@@ -4,12 +4,10 @@ import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import static constans.RabbitMQConstants.*;
+
 @Configuration
 public class RabbitMQConfig {
-    public static final String EXCHANGE_MARKETPLACE    = "marketplace.direct";
-    public static final String QUEUE_PRODUCT_LOG       = "product.log";
-    public static final String ROUTING_KEY_PRODUCT_LOG = "product.log";
-
     @Bean
     public Queue queue()
     {
